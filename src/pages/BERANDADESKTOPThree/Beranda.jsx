@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Button, Img, Line, Text, Crousel, NavbarPage} from "components";
+import { Button, Img, Text, Crousel, NavbarPage} from "components";
 import { Menu, X } from "lucide-react";
 
 const Program = () => {

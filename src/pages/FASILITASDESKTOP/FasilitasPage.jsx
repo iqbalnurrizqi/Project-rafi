@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Button, CheckBox, Img, Input, NavbarPage, Text } from "components";
+import { Img, NavbarPage, Text } from "components";
 import { Menu, X } from "lucide-react";
 
 

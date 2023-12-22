@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AiOutlineCaretDown, AiOutlineCaretUp } from "react-icons/ai";
-import { fireEvent } from "@testing-library/react";
 
 export const NavbarPage = () => {
   const navigate = useNavigate();

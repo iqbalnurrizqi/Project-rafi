@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, CheckBox, Img, Input, Text, NavbarPage, List } from "components";
+import { Button, CheckBox, Img, Text, NavbarPage, } from "components";
 import { useNavigate } from 'react-router-dom';
 import { Menu, X } from "lucide-react";
 
