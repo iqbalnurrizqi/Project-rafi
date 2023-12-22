@@ -21,13 +21,13 @@ export const NavbarPage = () => {
 
   return (
     <ul className="flex flex-wrap items-end mx-10 z-30 md:mx-5 sm:mx-0 md:p-1">
-      <li>
-        <button className="bg-yellow-600 p-5 text-black hover:bg-black-900 hover:text-slate-100 mt-12 md:p-3">
-          <a shape="square" onClick={() => navigate("/")}>
+
+        <button onClick={() => navigate("/")} className="bg-yellow-600 p-5 text-black hover:bg-black-900 hover:text-slate-100 mt-12 md:p-3">
+          <a shape="square" >
             Beranda
           </a>
         </button>
-      </li>
+
       <li>
         <button className="bg-yellow-600 p-5 text-black hover:bg-black-900 hover:text-slate-100 mt-12 md:p-3">
           <a href="#" shape="square" onClick={() => navigate("/programpage")}>
